@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD8C344A159721C000867246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C3449159721C000867246 /* UIKit.framework */; };
+		DD8C344C159721C000867246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C344B159721C000867246 /* Foundation.framework */; };
+		DD8C344E159721C000867246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C344D159721C000867246 /* CoreGraphics.framework */; };
+		DD8C3454159721C000867246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD8C3452159721C000867246 /* InfoPlist.strings */; };
+		DD8C3456159721C000867246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C3455159721C000867246 /* main.m */; };
+		DD8C345A159721C000867246 /* KDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C3459159721C000867246 /* KDAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD8C3445159721C000867246 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8C3449159721C000867246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD8C344B159721C000867246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD8C344D159721C000867246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD8C3451159721C000867246 /* FlipClock-Info.plist */ = {isa = PBXFileReference; path = "FlipClock-Info.plist"; sourceTree = "<group>"; };
+		DD8C3453159721C000867246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD8C3455159721C000867246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD8C3457159721C000867246 /* FlipClock-Prefix.pch */ = {isa = PBXFileReference; path = "FlipClock-Prefix.pch"; sourceTree = "<group>"; };
+		DD8C3458159721C000867246 /* KDAppDelegate.h */ = {isa = PBXFileReference; path = KDAppDelegate.h; sourceTree = "<group>"; };
+		DD8C3459159721C000867246 /* KDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD8C3442159721C000867246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8C344A159721C000867246 /* UIKit.framework in Frameworks */,
+				DD8C344C159721C000867246 /* Foundation.framework in Frameworks */,
+				DD8C344E159721C000867246 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD8C343A159721C000867246 = {
+			isa = PBXGroup;
+			children = (
+				DD8C344F159721C000867246 /* FlipClock */,
+				DD8C3448159721C000867246 /* Frameworks */,
+				DD8C3446159721C000867246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD8C3446159721C000867246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C3445159721C000867246 /* FlipClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD8C3448159721C000867246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C3449159721C000867246 /* UIKit.framework */,
+				DD8C344B159721C000867246 /* Foundation.framework */,
+				DD8C344D159721C000867246 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD8C344F159721C000867246 /* FlipClock */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C3458159721C000867246 /* KDAppDelegate.h */,
+				DD8C3459159721C000867246 /* KDAppDelegate.m */,
+				DD8C3450159721C000867246 /* Supporting Files */,
+			);
+			path = FlipClock;
+			sourceTree = "<group>";
+		};
+		DD8C3450159721C000867246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD8C3451159721C000867246 /* FlipClock-Info.plist */,
+				DD8C3452159721C000867246 /* InfoPlist.strings */,
+				DD8C3455159721C000867246 /* main.m */,
+				DD8C3457159721C000867246 /* FlipClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD8C3444159721C000867246 /* FlipClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8C345D159721C000867246 /* Build configuration list for PBXNativeTarget "FlipClock" */;
+			buildPhases = (
+				DD8C3441159721C000867246 /* Sources */,
+				DD8C3442159721C000867246 /* Frameworks */,
+				DD8C3443159721C000867246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipClock;
+			productName = FlipClock;
+			productReference = DD8C3445159721C000867246 /* FlipClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD8C343C159721C000867246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Solid Applications LLC";
+			};
+			buildConfigurationList = DD8C343F159721C000867246 /* Build configuration list for PBXProject "FlipClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD8C343A159721C000867246;
+			productRefGroup = DD8C3446159721C000867246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD8C3444159721C000867246 /* FlipClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD8C3443159721C000867246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8C3454159721C000867246 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD8C3441159721C000867246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8C3456159721C000867246 /* main.m in Sources */,
+				DD8C345A159721C000867246 /* KDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD8C3452159721C000867246 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8C3453159721C000867246 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD8C345B159721C000867246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD8C345C159721C000867246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8C345E159721C000867246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD8C345F159721C000867246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD8C343F159721C000867246 /* Build configuration list for PBXProject "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8C345B159721C000867246 /* Debug */,
+				DD8C345C159721C000867246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8C345D159721C000867246 /* Build configuration list for PBXNativeTarget "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8C345E159721C000867246 /* Debug */,
+				DD8C345F159721C000867246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD8C343C159721C000867246 /* Project object */;
+}
