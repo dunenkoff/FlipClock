@@ -7,6 +7,7 @@
 //
 
 #import "KDAppDelegate.h"
+#import "KDViewController.h"
 
 @implementation KDAppDelegate
 
@@ -15,7 +16,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    KDViewController *kdvc = [[KDViewController alloc] initWithNibName:nil bundle:nil];
+    [self.window setRootViewController:kdvc];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

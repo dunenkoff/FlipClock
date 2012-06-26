@@ -7,25 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD062A9015999FA000FBB738 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD062A8F15999FA000FBB738 /* background@2x.png */; };
 		DD8C344A159721C000867246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C3449159721C000867246 /* UIKit.framework */; };
 		DD8C344C159721C000867246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C344B159721C000867246 /* Foundation.framework */; };
 		DD8C344E159721C000867246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C344D159721C000867246 /* CoreGraphics.framework */; };
 		DD8C3454159721C000867246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD8C3452159721C000867246 /* InfoPlist.strings */; };
 		DD8C3456159721C000867246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C3455159721C000867246 /* main.m */; };
 		DD8C345A159721C000867246 /* KDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C3459159721C000867246 /* KDAppDelegate.m */; };
+		DD8C34671597223B00867246 /* KDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C34661597223B00867246 /* KDViewController.m */; };
+		DD8C346A1597225500867246 /* KDFlipClock.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C34691597225500867246 /* KDFlipClock.m */; };
+		DD8C346D1597240200867246 /* KDFlipClockSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C346C1597240200867246 /* KDFlipClockSegment.m */; };
+		DD8C346F1597250B00867246 /* clockSegment.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C346E1597250B00867246 /* clockSegment.png */; };
+		DD8C34711597255000867246 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C34701597255000867246 /* QuartzCore.framework */; };
+		DD8C347715979F6900867246 /* clockSegment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C347615979F6900867246 /* clockSegment@2x.png */; };
+		DD8C347A1597A6A000867246 /* clockDivider.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C34781597A6A000867246 /* clockDivider.png */; };
+		DD8C347B1597A6A000867246 /* clockDivider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C34791597A6A000867246 /* clockDivider@2x.png */; };
+		DD8C34831598590800867246 /* clockShine.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C34801598590800867246 /* clockShine.png */; };
+		DD8C34841598590800867246 /* clockShine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C34811598590800867246 /* clockShine@2x.png */; };
+		DD8C34851598590800867246 /* clockWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C34821598590800867246 /* clockWheel@2x.png */; };
+		DD8C348715985C7700867246 /* clockInset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8C348615985C7700867246 /* clockInset@2x.png */; };
+		DD9576921598605B00108D14 /* clockTextGradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9576911598605B00108D14 /* clockTextGradient@2x.png */; };
+		DD9576951598616D00108D14 /* clockBase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9576941598616D00108D14 /* clockBase@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD062A8F15999FA000FBB738 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		DD8C3445159721C000867246 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8C3449159721C000867246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DD8C344B159721C000867246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DD8C344D159721C000867246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DD8C3451159721C000867246 /* FlipClock-Info.plist */ = {isa = PBXFileReference; path = "FlipClock-Info.plist"; sourceTree = "<group>"; };
+		DD8C3451159721C000867246 /* FlipClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipClock-Info.plist"; sourceTree = "<group>"; };
 		DD8C3453159721C000867246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD8C3455159721C000867246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DD8C3457159721C000867246 /* FlipClock-Prefix.pch */ = {isa = PBXFileReference; path = "FlipClock-Prefix.pch"; sourceTree = "<group>"; };
-		DD8C3458159721C000867246 /* KDAppDelegate.h */ = {isa = PBXFileReference; path = KDAppDelegate.h; sourceTree = "<group>"; };
+		DD8C3457159721C000867246 /* FlipClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipClock-Prefix.pch"; sourceTree = "<group>"; };
+		DD8C3458159721C000867246 /* KDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDAppDelegate.h; sourceTree = "<group>"; };
 		DD8C3459159721C000867246 /* KDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDAppDelegate.m; sourceTree = "<group>"; };
+		DD8C34651597223B00867246 /* KDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDViewController.h; sourceTree = "<group>"; };
+		DD8C34661597223B00867246 /* KDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDViewController.m; sourceTree = "<group>"; };
+		DD8C34681597225500867246 /* KDFlipClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDFlipClock.h; sourceTree = "<group>"; };
+		DD8C34691597225500867246 /* KDFlipClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDFlipClock.m; sourceTree = "<group>"; };
+		DD8C346B1597240100867246 /* KDFlipClockSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDFlipClockSegment.h; sourceTree = "<group>"; };
+		DD8C346C1597240200867246 /* KDFlipClockSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDFlipClockSegment.m; sourceTree = "<group>"; };
+		DD8C346E1597250B00867246 /* clockSegment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockSegment.png; sourceTree = "<group>"; };
+		DD8C34701597255000867246 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD8C347615979F6900867246 /* clockSegment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockSegment@2x.png"; sourceTree = "<group>"; };
+		DD8C34781597A6A000867246 /* clockDivider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockDivider.png; sourceTree = "<group>"; };
+		DD8C34791597A6A000867246 /* clockDivider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockDivider@2x.png"; sourceTree = "<group>"; };
+		DD8C34801598590800867246 /* clockShine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockShine.png; sourceTree = "<group>"; };
+		DD8C34811598590800867246 /* clockShine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockShine@2x.png"; sourceTree = "<group>"; };
+		DD8C34821598590800867246 /* clockWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockWheel@2x.png"; sourceTree = "<group>"; };
+		DD8C348615985C7700867246 /* clockInset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockInset@2x.png"; sourceTree = "<group>"; };
+		DD9576911598605B00108D14 /* clockTextGradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockTextGradient@2x.png"; sourceTree = "<group>"; };
+		DD9576941598616D00108D14 /* clockBase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockBase@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8C34711597255000867246 /* QuartzCore.framework in Frameworks */,
 				DD8C344A159721C000867246 /* UIKit.framework in Frameworks */,
 				DD8C344C159721C000867246 /* Foundation.framework in Frameworks */,
 				DD8C344E159721C000867246 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +96,7 @@
 		DD8C3448159721C000867246 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD8C34701597255000867246 /* QuartzCore.framework */,
 				DD8C3449159721C000867246 /* UIKit.framework */,
 				DD8C344B159721C000867246 /* Foundation.framework */,
 				DD8C344D159721C000867246 /* CoreGraphics.framework */,
@@ -72,8 +107,15 @@
 		DD8C344F159721C000867246 /* FlipClock */ = {
 			isa = PBXGroup;
 			children = (
+				DD8C34601597221300867246 /* Images */,
 				DD8C3458159721C000867246 /* KDAppDelegate.h */,
 				DD8C3459159721C000867246 /* KDAppDelegate.m */,
+				DD8C34651597223B00867246 /* KDViewController.h */,
+				DD8C34661597223B00867246 /* KDViewController.m */,
+				DD8C34681597225500867246 /* KDFlipClock.h */,
+				DD8C34691597225500867246 /* KDFlipClock.m */,
+				DD8C346B1597240100867246 /* KDFlipClockSegment.h */,
+				DD8C346C1597240200867246 /* KDFlipClockSegment.m */,
 				DD8C3450159721C000867246 /* Supporting Files */,
 			);
 			path = FlipClock;
@@ -88,6 +130,24 @@
 				DD8C3457159721C000867246 /* FlipClock-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD8C34601597221300867246 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD062A8F15999FA000FBB738 /* background@2x.png */,
+				DD9576941598616D00108D14 /* clockBase@2x.png */,
+				DD9576911598605B00108D14 /* clockTextGradient@2x.png */,
+				DD8C348615985C7700867246 /* clockInset@2x.png */,
+				DD8C34801598590800867246 /* clockShine.png */,
+				DD8C34811598590800867246 /* clockShine@2x.png */,
+				DD8C34821598590800867246 /* clockWheel@2x.png */,
+				DD8C34781597A6A000867246 /* clockDivider.png */,
+				DD8C34791597A6A000867246 /* clockDivider@2x.png */,
+				DD8C347615979F6900867246 /* clockSegment@2x.png */,
+				DD8C346E1597250B00867246 /* clockSegment.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +203,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8C3454159721C000867246 /* InfoPlist.strings in Resources */,
+				DD8C346F1597250B00867246 /* clockSegment.png in Resources */,
+				DD8C347715979F6900867246 /* clockSegment@2x.png in Resources */,
+				DD8C347A1597A6A000867246 /* clockDivider.png in Resources */,
+				DD8C347B1597A6A000867246 /* clockDivider@2x.png in Resources */,
+				DD8C34831598590800867246 /* clockShine.png in Resources */,
+				DD8C34841598590800867246 /* clockShine@2x.png in Resources */,
+				DD8C34851598590800867246 /* clockWheel@2x.png in Resources */,
+				DD8C348715985C7700867246 /* clockInset@2x.png in Resources */,
+				DD9576921598605B00108D14 /* clockTextGradient@2x.png in Resources */,
+				DD9576951598616D00108D14 /* clockBase@2x.png in Resources */,
+				DD062A9015999FA000FBB738 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +226,9 @@
 			files = (
 				DD8C3456159721C000867246 /* main.m in Sources */,
 				DD8C345A159721C000867246 /* KDAppDelegate.m in Sources */,
+				DD8C34671597223B00867246 /* KDViewController.m in Sources */,
+				DD8C346A1597225500867246 /* KDFlipClock.m in Sources */,
+				DD8C346D1597240200867246 /* KDFlipClockSegment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +332,7 @@
 				DD8C345F159721C000867246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
