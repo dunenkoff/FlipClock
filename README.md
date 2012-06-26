@@ -1,7 +1,20 @@
 FlipClock
 ===========
 
-Simple configurable countdown component, Siri-style. Uses QuartzCore, so don't forget to include that in your projects. Just supply the KDFlipClock instance with NSDate to countdown to and place it in your view.
+Simple configurable countdown/clock component, Siri-style. Uses QuartzCore, so don't forget to include that in your projects.
+
+Usage
+-------
+For countdown, do this: 
+
+	KDFlipClock *countdown = [[KDFlipClock alloc] initWithCountdownToTime:[NSDate dateWithTimeIntervalSinceNow:60*60*24] showsSeconds:YES showsLabels:YES];
+
+Days will be automatically shown/hidden depending on supplied date.
+
+For clock, current time will be used, so no date required:
+
+	KDFlipClock *clock = [[KDFlipClock alloc] initClockWithLabels:YES showsSeconds:YES];
+
 
 License
 -------

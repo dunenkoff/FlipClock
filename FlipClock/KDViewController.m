@@ -14,7 +14,8 @@
 @end
 
 @implementation KDViewController {
-    KDFlipClock *_fc;
+    KDFlipClock *_clock;
+    KDFlipClock *_countdown;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -31,10 +32,14 @@
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
     
-    if (_fc == nil) {
-        _fc = [[KDFlipClock alloc] initWithCountdownToTime:[NSDate dateWithTimeIntervalSinceNow:60*60*24+10] showsSeconds:YES showsLabels:YES];
-        [_fc setFrame:CGRectMake((self.view.frame.size.width - _fc.frame.size.width) / 2, (self.view.frame.size.height - _fc.frame.size.height) / 2, _fc.frame.size.width, _fc.frame.size.height)];
-        [self.view addSubview:_fc];
+    if (_clock == nil) {
+        _clock = [[KDFlipClock alloc] initClockWithLabels:YES showsSeconds:YES];
+        [_clock setFrame:CGRectMake((self.view.frame.size.width - _clock.frame.size.width) / 2, (self.view.frame.size.height - _clock.frame.size.height) / 3, _clock.frame.size.width, _clock.frame.size.height)];
+        [self.view addSubview:_clock];
+        
+        _countdown = [[KDFlipClock alloc] initWithCountdownToTime:[NSDate dateWithTimeIntervalSinceNow:60*60*24] showsSeconds:YES showsLabels:YES];
+        [_countdown setFrame:CGRectMake((self.view.frame.size.width - _countdown.frame.size.width) / 2, (self.view.frame.size.height - _countdown.frame.size.height) / 1.5, _countdown.frame.size.width, _countdown.frame.size.height)];
+        [self.view addSubview:_countdown];
     }
 }
 

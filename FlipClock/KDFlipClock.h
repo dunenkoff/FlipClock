@@ -16,5 +16,6 @@ typedef enum {
 @interface KDFlipClock : UIView
 
 - (id)initWithCountdownToTime:(NSDate *)time showsSeconds:(BOOL)showsSeconds showsLabels:(BOOL)showsLabels;
+- (id)initClockWithLabels:(BOOL)showsLabels showsSeconds:(BOOL)showsSeconds;
 
 @end
